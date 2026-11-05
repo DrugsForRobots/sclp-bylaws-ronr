@@ -1,0 +1,295 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="description" content="What the 2026 Rules of the South Carolina Libertarian Party say about meetings, conventions, proxies, quorums, removals and expulsions, and how to protect yourself when they're aimed at you.">
+<link rel="canonical" href="https://drugsforrobots.github.io/sclp-bylaws-ronr/">
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="SCLP Rules Cheat Sheet">
+<meta property="og:title" content="SCLP Rules Cheat Sheet">
+<meta property="og:description" content="What the 2026 Rules of the South Carolina Libertarian Party say about meetings, conventions, proxies, quorums, removals and expulsions, and how to protect yourself when they're aimed at you.">
+<meta property="og:url" content="https://drugsforrobots.github.io/sclp-bylaws-ronr/">
+<meta property="og:image" content="https://drugsforrobots.github.io/sclp-bylaws-ronr/preview.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="SCLP Rules Cheat Sheet: the 2026 SCLP Rules, with key thresholds">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="SCLP Rules Cheat Sheet">
+<meta name="twitter:description" content="What the 2026 Rules of the South Carolina Libertarian Party say about meetings, conventions, proxies, quorums, removals and expulsions, and how to protect yourself when they're aimed at you.">
+<meta name="twitter:image" content="https://drugsforrobots.github.io/sclp-bylaws-ronr/preview.png">
+<style>:root{padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}img{max-width:100%}[hidden]{display:none!important}</style>
+<title>SCLP Rules Cheat Sheet</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&family=Public+Sans:ital,wght@0,400..700;1,400&display=swap">
+<style>
+  /* Layout: companion to the national Parliamentary Cheat Sheet; same navy sheet, tables for the standing rules, cards for the defense playbook. Single dark look by design. */
+  :root {
+    --navy: #13213C; --panel: #1C2D4D; --deep: #0F1A30; --cream: #F5F1E8; --mist: #C5CFDF; --dim: #A3AFC4;
+    --gold: #E2B13C; --line: rgba(197, 207, 223, 0.16); --warn: #E8875A;
+    --serif: 'Libre Baskerville', Georgia, serif; --sans: 'Public Sans', Arial, sans-serif;
+    color-scheme: dark;
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--deep); color: var(--cream); font-family: var(--sans); line-height: 1.5;
+         padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)); padding-block: 24px 48px; }
+  .sheet { max-width: 72rem; margin: 0 auto; background: var(--navy); border-radius: 16px; padding: 3rem; display: grid; gap: 2.75rem; }
+  @media (max-width: 40rem) { .sheet { padding: 1.25rem; gap: 2rem; } }
+  .sheet, .sheet p, .sheet label, .sheet span, .sheet b, .sheet i, .sheet h1, .sheet h2, .sheet h3, .sheet td { color: var(--cream); }
+  .sheet .note, .sheet .lede, .sheet .what, .sheet q, .sheet .tile .label { color: var(--mist); }
+  .sheet .fine, .sheet .lbl { color: var(--dim); }
+  .sheet .eyebrow, .sheet .cite, .sheet .num, .sheet .rec b, .sheet th { color: var(--gold); }
+  .sheet .warn { color: var(--warn); }
+  h1 { font-family: var(--serif); font-weight: 700; font-size: clamp(2rem, 5vw, 3.5rem); line-height: 1.1; margin: 0; text-wrap: balance; }
+  h2 { font-family: var(--serif); font-weight: 700; font-size: clamp(1.3rem, 2.6vw, 1.8rem); line-height: 1.2; margin: 0; text-wrap: balance; }
+  h3 { font-family: var(--sans); font-weight: 700; font-size: 1.05rem; line-height: 1.3; margin: 0; }
+  p { margin: 0; max-width: 70ch; }
+  .eyebrow { font-size: 0.8rem; font-weight: 600; letter-spacing: 0.18em; text-transform: uppercase; margin: 0; }
+  .rule { width: 6rem; height: 4px; background: var(--gold); }
+  .lede { font-size: clamp(1.05rem, 1.8vw, 1.3rem); }
+  .lede b, .note b { color: var(--cream); }
+  .note { font-size: 0.92rem; }
+  .fine { font-size: 0.82rem; }
+  section { display: grid; gap: 1rem; min-width: 0; }
+  .head { display: grid; gap: 0.4rem; }
+  .card { background: var(--panel); border-radius: 16px; padding: 1.25rem 1.5rem; display: grid; gap: 0.6rem; align-content: start; min-width: 0; }
+  .grid { display: grid; gap: 1rem; grid-template-columns: repeat(auto-fit, minmax(min(100%, 19rem), 1fr)); }
+  .tiles { display: grid; gap: 1rem; grid-template-columns: repeat(auto-fit, minmax(min(100%, 13rem), 1fr)); }
+  .tile .num { font-family: var(--serif); font-weight: 700; font-size: clamp(1.9rem, 3.4vw, 2.6rem); line-height: 1.1; font-variant-numeric: tabular-nums; }
+  .tile .label { font-size: 0.95rem; }
+  .scroll { overflow-x: auto; border-radius: 12px; background: var(--panel); padding: 0.5rem 0.75rem; }
+  .subtitle { font-family: var(--serif); font-style: italic; font-size: 1.1rem; color: var(--gold); }
+  table { width: 100%; border-collapse: collapse; font-size: 0.9rem; min-width: 40rem; }
+  th { text-align: left; font-size: 0.72rem; font-weight: 600; letter-spacing: 0.12em; text-transform: uppercase; padding: 0.65rem 0.8rem; border-bottom: 1px solid var(--gold); background: var(--panel); }
+  td { padding: 0.65rem 0.8rem; border-bottom: 1px solid var(--line); vertical-align: top; }
+  .cite { font-size: 0.78rem; font-weight: 600; white-space: nowrap; }
+  .say { font-family: var(--serif); font-style: italic; background: var(--deep); padding: 0.7rem 0.9rem; border-radius: 8px; }
+  .lbl { font-size: 0.7rem; font-weight: 600; letter-spacing: 0.14em; text-transform: uppercase; }
+  .rec { font-size: 0.86rem; border-top: 1px solid var(--line); padding-top: 0.6rem; color: var(--mist); }
+  .lp { border: 1px solid var(--gold); }
+  .filter { display: flex; flex-wrap: wrap; gap: 0.6rem; align-items: center; }
+  .filter input { font: inherit; font-size: 1rem; padding: 0.6rem 0.85rem; border-radius: 10px; border: 1px solid var(--gold); background: var(--deep); color: var(--cream); width: min(100%, 26rem); }
+  .filter input:focus-visible, a:focus-visible { outline: 2px solid var(--gold); outline-offset: 2px; }
+  a { color: var(--gold); }
+  .layers { display: grid; gap: 0.6rem; }
+  .layer { display: grid; grid-template-columns: 2.25rem 1fr; gap: 0.8rem; align-items: start; background: var(--panel); border-radius: 12px; padding: 0.85rem 1rem; }
+  .layer .n { font-family: var(--serif); font-weight: 700; font-size: 1.5rem; color: var(--gold); line-height: 1.1; }
+</style>
+
+</head>
+<body>
+<div class="sheet">
+  <header class="head" style="gap:1rem">
+    <h1>SCLP Rules Cheat Sheet</h1>
+    <p class="subtitle">The Rules of the South Carolina Libertarian Party, 2026</p>
+    <div class="rule"></div>
+    <p class="lede">The SCLP calls its bylaws its <b>Rules</b>. This is what they say about meetings, conventions, proxies, quorums, removals and expulsions, and <b>how to protect yourself</b> when they’re aimed at you. Built on the <b>2026 Rules</b>, as amended by the State Convention on April 10, 2026.</p>
+    <p class="fine">Citations read like <span class="cite">SCLP 1.2(e)</span>: Rule 1, Section 2, item e. Every quotation was checked word for word against its page of the official PDF from sclp.org. The project’s checker confirms pages, not SCLP section numbers, so the section numbers here are from a careful reading. Companion to the national <a href="https://claude.ai/artifact/TSMf9cgxkPZUtAzspeTyrU">Parliamentary Cheat Sheet</a>.</p>
+  </header>
+
+  <div class="filter">
+    <label for="q" class="lbl">Find a rule or situation</label>
+    <input id="q" type="search" placeholder="proxy, quorum, expulsion, resolution…" autocomplete="off">
+  </div>
+
+  <!-- LAYERS -->
+  <section aria-labelledby="layers">
+    <div class="head"><p class="eyebrow">Which Rule Wins</p><h2 id="layers">How The SCLP Stacks Its Rules</h2></div>
+    <div class="layers">
+      <div class="layer"><span class="n">1</span><p class="note"><b>South Carolina election law.</b> Where it conflicts with the Rules, state law governs. Many Rules cite the Code section they follow, like (7-9-100).<br><span class="cite">SCLP 2.1(b)</span></p></div>
+      <div class="layer"><span class="n">2</span><p class="note"><b>The SCLP Rules.</b> Read for purpose, not technicality: <q>The spirit and not the letter of each Rule shall be controlling. Substantial compliance with a Rule shall be sufficient.</q><br><span class="cite">SCLP 2.1(a)</span></p></div>
+      <div class="layer"><span class="n">3</span><p class="note"><b>A body’s own rules.</b> The State Committee, county committees and county conventions may adopt rules that don’t conflict with the SCLP Rules or state law.<br><span class="cite">SCLP 2.1(k)</span></p></div>
+      <div class="layer"><span class="n">4</span><p class="note"><b>Robert’s Rules.</b> Meetings and conventions not covered above <q>shall conform to the most recent edition of Robert's Rules of Order, Newly Revised.</q> The national LP rules are only a guide: <q>In matters or areas not covered by these Rules, the Rules or Bylaws of the National Libertarian Party may be followed as a guide.</q><br><span class="cite">SCLP 2.1(e), 2.1(d)</span></p></div>
+    </div>
+  </section>
+
+  <!-- NUMBERS -->
+  <section aria-labelledby="numbers">
+    <div class="head"><p class="eyebrow">The Numbers To Know</p><h2 id="numbers">Thresholds At A Glance</h2></div>
+    <div class="tiles">
+      <div class="card tile lp"><div class="num">Majority</div><div class="label">of credentialed, approved delegates is a convention quorum. <span class="cite">SCLP 10(a)</span></div></div>
+      <div class="card tile lp"><div class="num">1/3</div><div class="label">of voting members is a State or County Committee quorum. <span class="cite">SCLP 10(b)</span></div></div>
+      <div class="card tile lp"><div class="num">Majority Present</div><div class="label">of all registered delegates to amend the Rules. Abstaining counts against. <span class="cite">SCLP 2.1(g)</span></div></div>
+      <div class="card tile lp"><div class="num">2/3</div><div class="label">of the entire State Committee, no proxies, to expel a member. <span class="cite">SCLP 1.2(e)</span></div></div>
+      <div class="card tile lp"><div class="num">2/3</div><div class="label">of the State Committee’s full membership to remove the Chair or a Vice-Chair, for listed reasons only. <span class="cite">SCLP 8.2(a)</span></div></div>
+      <div class="card tile lp"><div class="num">24 Hours</div><div class="label">written notice to every member before any committee meeting. Email counts. <span class="cite">SCLP 8.1(i), 2.4(a)</span></div></div>
+    </div>
+  </section>
+
+  <!-- STATE COMMITTEE -->
+  <section aria-labelledby="committee">
+    <div class="head"><p class="eyebrow">Between Conventions</p><h2 id="committee">State Committee Meetings</h2>
+    <p class="note">The State Committee has <q>general management</q> of the party, subject to the State Convention. Its meetings run on these rules.</p></div>
+    <div class="scroll">
+      <table>
+        <tr><th style="width:24%">Question</th><th>The Rule</th><th>Source</th></tr>
+        <tr><td>Who can call a meeting?</td><td class="what"><q>The State Committee shall meet at the call of the State Chairman or any five (5) members thereof</q>, at least once each calendar quarter</td><td class="cite">SCLP 8.1(i)</td></tr>
+        <tr><td>How much notice?</td><td class="what"><q>No meeting shall be held without each member of the Committee having been given at least twenty-four (24) hours written notice thereof</q>, unless the next meeting was announced at the last one</td><td class="cite">SCLP 8.1(i)</td></tr>
+        <tr><td>Does the Chair vote?</td><td class="what"><q>Each member shall have one vote, except for the State Chairman, who shall vote on the Committee only in case of a tie.</q> County Chairs likewise vote only to break ties</td><td class="cite">SCLP 8.1(b), 5.4(a)</td></tr>
+        <tr><td>Can the agenda be changed?</td><td class="what">Yes, by a simple majority, not Robert’s two-thirds: <q>upon motion duly made and seconded the order of business may be altered at any time by majority vote of the Committee members present</q></td><td class="cite">SCLP 8.1(f)</td></tr>
+        <tr><td>Who may watch and speak?</td><td class="what">Meetings are open to members and the public except executive session. Non-members speak only in public comment: <q>All such comments shall be limited to three minutes in duration unless the Chairman shall grant a longer period</q></td><td class="cite">SCLP 8.1(e), 8.1(f)</td></tr>
+        <tr><td>No quorum?</td><td class="what"><q>No business may be conducted by the Committee unless a quorum is present, except to recess the meeting until another date and time.</q></td><td class="cite">SCLP 8.1(f)</td></tr>
+        <tr><td>Meeting by phone or video?</td><td class="what">Allowed, but <q>No executive sessions may occur in such teleconference meetings</q>, and <q>If a remote connection is lost the meeting will recess until connection is reestablished</q> or the disconnected members agree to go on</td><td class="cite">SCLP 8.1(j)</td></tr>
+        <tr><td>Who sits on committees?</td><td class="what">The Chair appoints the standing committees, Rules included, and <q>may add or remove members of each standing committee at any time</q>. <q>The State Chairman shall be an ex officio member of all committees. All committees shall report to the Chairman.</q></td><td class="cite">SCLP 8.1(k)</td></tr>
+        <tr><td>Spending</td><td class="what">The Treasurer <q>shall not spend any of the Party's funds without the approval of the State Committee, with the exception of budgeted amounts and routine expenses approved by type on a periodic basis.</q> No debt unless authorized, and <q>Prior to any such authorization, funds must be on hand and available for the purpose authorized.</q></td><td class="cite">SCLP 8.2(a), 14(a)</td></tr>
+      </table>
+    </div>
+  </section>
+
+  <!-- PROXIES -->
+  <section aria-labelledby="proxies">
+    <div class="head"><p class="eyebrow">Rule 9</p><h2 id="proxies">Proxies</h2>
+    <p class="note">Robert’s doesn’t allow proxies unless an organization’s rules do. The SCLP’s do, for State Committee members, with strict conditions.</p></div>
+    <div class="grid">
+      <div class="card"><h3>Who Can Hold It</h3><p class="note"><q>A state committeeman may give his proxy to any other Party member of his own county.</q> If you name no one, <q>the County Chairman or County Vice-Chairman, in that order, of his county shall be considered an automatic proxy at such meeting</q>.</p><span class="cite">SCLP 9(b), 9(f)</span></div>
+      <div class="card"><h3>When It Must Arrive</h3><p class="note"><q>A proxy must be delivered to the State Secretary prior to the time the meeting is called to order.</q> Mail, email or fax all work. It must name the holder and the county.</p><span class="cite">SCLP 9(d)</span></div>
+      <div class="card"><h3>How Long It Lasts</h3><p class="note"><q>Proxies shall be valid for only one State Committee meeting.</q> <q>No proxyholder shall be authorized to designate a substitute or successor proxy.</q> You may name backups in order yourself.</p><span class="cite">SCLP 9(e), 9(g)</span></div>
+    </div>
+  </section>
+
+  <!-- CONVENTION -->
+  <section aria-labelledby="convention">
+    <div class="head"><p class="eyebrow">At The State Convention</p><h2 id="convention">Convention Floor Rules</h2></div>
+    <div class="scroll">
+      <table>
+        <tr><th style="width:24%">Business</th><th>The Rule</th><th>Source</th></tr>
+        <tr><td>Changing the Rules</td><td class="what">A proposal needs <q>the prior approval of at least one County Convention, the State Committee, or the Rules Committee</q>, and must be <q>submitted, in writing, to the Convention Secretary</q>. <q>This rule shall not be subject to suspension or amendment by any vote of a State Convention</q>. Minority reports are voted on first</td><td class="cite">SCLP 7.2(f)</td></tr>
+        <tr><td>Resolutions with notice</td><td class="what">Sent to the Secretary <q>not less than two weeks in advance of the date of the convention</q>: on the agenda, and <q>Passage of such resolutions shall require a majority of the credentialed delegates present and voting.</q> Bring copies for every delegate <q>plus not less than 10% of that number</q></td><td class="cite">SCLP 7.2(k)</td></tr>
+        <tr><td>Resolutions without notice</td><td class="what">Heard only if time permits, in the Convention President’s judgment, and passing needs <q>the affirmative vote of not less than two-thirds (2/3) of the credentialed delegates present and voting</q></td><td class="cite">SCLP 7.2(k)</td></tr>
+        <tr><td>Do resolutions last?</td><td class="what"><q>Resolutions passed by the convention shall not be binding on future conventions unless future convention delegates renew them.</q></td><td class="cite">SCLP 7.2(k)</td></tr>
+        <tr><td>Adding delegates</td><td class="what">After the call to order, only by suspending the rules <q>with the consent of that delegation; and (iii) with the consent of the Convention</q>. <q>The convention, by two-thirds majority vote of the delegates included in the secretary's credential report, may approve additions to any county party's delegation.</q></td><td class="cite">SCLP 7.1(b), 7.2(c)</td></tr>
+        <tr><td>Credentials disputes</td><td class="what"><q>Any person aggrieved by the report of the credentials committee may appeal</q> to the convention. A credentials member may file a minority report <q>unless three-fourths (3/4) of the delegates to the convention vote not to receive a minority report.</q></td><td class="cite">SCLP 7.1(c)</td></tr>
+        <tr><td>Nominating candidates</td><td class="what"><q>All votes shall be by secret ballot.</q> None of the Above is always on the ballot. <q>For races with more than one candidate, the convention shall make their selection by using Rank Choice Voting.</q></td><td class="cite">SCLP 7.2(h), 12.1(a)</td></tr>
+        <tr><td>National delegates</td><td class="what">Counties nominate them, <q>not less than thirty (30) days prior to the opening date of the state</q> convention; no floor nominations except from unorganized counties. A delegate who skips the national convention without 30 days’ notice <q>shall be disqualified from participating as a delegate from South Carolina in the next national convention</q></td><td class="cite">SCLP 7.3(d), 7.3(l)</td></tr>
+      </table>
+    </div>
+  </section>
+
+  <!-- DEFENSE -->
+  <section aria-labelledby="defense">
+    <div class="head"><p class="eyebrow">Self-Defense</p><h2 id="defense">When The Rules Are Used Against You</h2>
+    <p class="note">Each card: the situation, what to do, and the rule that backs you.</p></div>
+    <div class="grid">
+
+      <div class="card"><h3>You’re Charged With Expulsion</h3>
+        <p class="say">Demand the written charges, and attend the hearing with your evidence and witnesses.</p>
+        <p class="note">You get <q>not less than 14 days' written notice of such hearing, along with a description of the charges made against him</q>. <q>He shall be permitted to present evidence and witnesses in his defense and to cross-examine any witnesses against him.</q> It takes <q>two-thirds vote of the entire State Committee, which for this purpose shall not permit the use of proxies</q>, so absent members count against expulsion.</p>
+        <p class="note warn">The hearing is your only chance: <q>If expulsion is decreed it shall be effective immediately, and there shall be no appeal.</q></p>
+        <p><span class="cite">SCLP 1.2(e)</span></p>
+        <p class="rec"><b>Your protection after:</b> <q>If expulsion is rejected, no subsequent petition for expulsion against that same member based on the same or related charges shall be entertained by the State Committee.</q></p></div>
+
+      <div class="card"><h3>They Move To Remove The State Chair Or A Vice-Chair</h3>
+        <p class="say">“Point of order: which of the three listed grounds is charged?”</p>
+        <p class="note">Removal takes two-thirds of the full membership, and only for these reasons: <q>misappropriation of party property or funds; material misrepresentation of party platform; and repeated failure to schedule, hold or attend meetings of the State Committee.</q> <q>The State Chairman shall be informed in writing at least 10 days before a vote for removal.</q></p>
+        <p class="note">Put your defense on the record. It must be <q>either in written or spoken form offered on the record, not to include e-mails or telephone conversations</q>.</p>
+        <p><span class="cite">SCLP 8.2(a)</span></p></div>
+
+      <div class="card"><h3>You’re The Secretary Or Treasurer</h3>
+        <p class="say">Know that you serve at the Committee’s pleasure.</p>
+        <p class="note">The officers the Committee elects have none of the Chair’s protections: <q>The State Committee may remove any officer chosen by it at any time.</q> No grounds, no notice period. If you hold one of these offices, keep your records current so a handover is clean.</p>
+        <p><span class="cite">SCLP 8.3(b)</span></p></div>
+
+      <div class="card"><h3>Your Seat Is Threatened For Absences</h3>
+        <p class="say">Send a proxy every time you can’t attend.</p>
+        <p class="note">A seat can be declared vacant only for a member <q>who is absent from three (3) consecutive meetings without good cause when such committeeman has not been represented by a designated proxy</q>. Before that, you must be notified by certified mail and given the chance to show cause.</p>
+        <p><span class="cite">SCLP 8.3(e), 5.5(e)</span></p></div>
+
+      <div class="card"><h3>The Quorum Is Being Run Down</h3>
+        <p class="say">Show up, or file a proxy before the call to order.</p>
+        <p class="note">After an entity has had two consecutive properly noticed meetings without a quorum, the State Committee’s quorum falls to <q>five (5) of the voting members thereof</q> until the next reorganization. For county committees it falls to the members present. Two skipped meetings can hand decisions to a handful of people.</p>
+        <p><span class="cite">SCLP 10(c)</span></p></div>
+
+      <div class="card"><h3>A Rules Change Appears From The Floor</h3>
+        <p class="say">“Point of order: this proposal has no prior approval and wasn’t submitted in writing.”</p>
+        <p class="note">Convention Rules changes need <q>the prior approval of at least one County Convention, the State Committee, or the Rules Committee</q> and written submission, and <q>This rule shall not be subject to suspension or amendment by any vote of a State Convention</q>. A two-thirds vote to suspend the rules doesn’t get around it.</p>
+        <p><span class="cite">SCLP 7.2(f)</span></p></div>
+
+      <div class="card"><h3>A Surprise Resolution Is Sprung</h3>
+        <p class="say">“Point of order: this resolution was not submitted two weeks in advance and needs two-thirds.”</p>
+        <p class="note">Without two weeks’ notice, a resolution is heard only if time permits and passes only with <q>the affirmative vote of not less than two-thirds (2/3) of the credentialed delegates present and voting</q>. Copies for every delegate plus 10% must be handed to the Convention Secretary.</p>
+        <p><span class="cite">SCLP 7.2(k)</span></p></div>
+
+      <div class="card"><h3>The Agenda Gets Reshuffled Mid-Meeting</h3>
+        <p class="say">Count the room before the vote.</p>
+        <p class="note">At the State Committee, unlike under Robert’s, a simple majority can reorder business: <q>upon motion duly made and seconded the order of business may be altered at any time by majority vote of the Committee members present</q>. Your defense is votes and proxies, not a point of order.</p>
+        <p><span class="cite">SCLP 8.1(f)</span></p></div>
+
+      <div class="card"><h3>Someone Attacks A Technicality</h3>
+        <p class="say">“Point of order: the Rules were substantially complied with.”</p>
+        <p class="note"><q>The spirit and not the letter of each Rule shall be controlling. Substantial compliance with a Rule shall be sufficient.</q> A small defect is not grounds to undo an action when the rule’s purpose was served. The same rule cuts the other way: don’t build your own case on a technicality.</p>
+        <p><span class="cite">SCLP 2.1(a)</span></p></div>
+
+      <div class="card"><h3>Before You Endorse Anyone</h3>
+        <p class="say">Get a written waiver first, or don’t.</p>
+        <p class="note">This one acts on its own, with no vote: <q>Should any officer or delegate publicly endorse or financially support a candidate for partisan office other than a duly nominated Libertarian candidate</q>, <q>unless there is no Libertarian nominee in the relevant race, such shall immediately vacate his</q> office. The State Committee can waive it for statewide and multi-county races; county committees for their own. Becoming <q>an elected officer or official of another political party</q> vacates your office too.</p>
+        <p><span class="cite">SCLP 5.5(f), 8.3(e), 16(b)</span></p></div>
+
+      <div class="card"><h3>Your County Has A Dispute</h3>
+        <p class="say">File an appeal with the State Chair, in writing, and keep the date.</p>
+        <p class="note"><q>All controversies which may arise in county party organization shall be decided on appeal by the State Committee</q>, and <q>The State Chairman shall call a meeting of the State Committee no later than two weeks after an appeal has been filed with the State Chairman.</q> Seating disputes are the exception: <q>all questions pertaining to the seating of delegates at all levels shall be determined by the convention, meeting, or body involved</q>.</p>
+        <p><span class="cite">SCLP 11</span></p></div>
+
+      <div class="card"><h3>You Weren’t Properly Notified</h3>
+        <p class="say">Keep every party email. Email is legal notice.</p>
+        <p class="note">“Written notice” includes <q>electronic mail</q>, along with mail, fax, personal delivery or courier. Make sure the Secretary has your current email address, and check it before meetings.</p>
+        <p><span class="cite">SCLP 2.4(a)</span></p></div>
+    </div>
+  </section>
+
+  <!-- THIN -->
+  <section aria-labelledby="thin">
+    <div class="head"><p class="eyebrow">Know The Weak Spots</p><h2 id="thin">Where The SCLP Rules Are Thin</h2>
+    <p class="note">The same kinds of gaps the strategy document finds in the national bylaws, here at the state level. Worth knowing before someone else uses them.</p></div>
+    <div class="grid">
+      <div class="card"><h3>Expulsion Grounds Are Open-Ended</h3><p class="note">Grounds include anything <q>which is deleterious to the party or which seriously damages its reputation and public esteem</q>, or that is <q>otherwise sufficiently serious that the Party desires to permanently</q> disassociate from the member, <q>in the judgment of the State Committee</q>. With no appeal, the committee’s judgment is final. A petition takes only <q>three (3) Party members</q>.</p><span class="cite">SCLP 1.2(e)</span></div>
+      <div class="card"><h3>One Office Shapes Every Committee</h3><p class="note">The Chair appoints and removes the members of every standing committee, Rules included, sits on all of them and receives all their reports. The national strategy document’s proposal 1.4 makes the same point about the LNC.</p><span class="cite">SCLP 8.1(k)</span></div>
+      <div class="card"><h3>The Quorum Ratchet</h3><p class="note">Two failed meetings drop the State Committee’s quorum to five until the next reorganization, a rule that rewards staying away.</p><span class="cite">SCLP 10(c)</span></div>
+      <div class="card"><h3>Two Counting Methods For Nominations</h3><p class="note">7.2(h) drops <q>the nominee receiving the fewest votes (excluding</q> None of the Above) and re-votes. 12.1(a) says <q>For races with more than one candidate, the convention shall make their selection by using Rank Choice Voting.</q> The Rules don’t say how the two fit together.</p><span class="cite">SCLP 7.2(h), 12.1(a)</span></div>
+      <div class="card"><h3>Loose Ends In The Text</h3><p class="note">The dormant-county rule points to a meeting <q>as provided in Rule 4(g)</q>, but Rule 4 is reserved and has no (g); it likely means Rule 5, Section 4(g). Rule 8, Section 1 also has two items lettered (k).</p><span class="cite">SCLP 5.4(i), 8.1(k)</span></div>
+      <div class="card"><h3>Abstaining On A Rules Change Counts As No</h3><p class="note">Amendments need a majority of <q>the total number of delegates present, registered and approved</q>, not of votes cast, so a delegate who sits out the vote is effectively voting no.</p><span class="cite">SCLP 2.1(g)</span></div>
+    </div>
+  </section>
+
+  <!-- DEADLINES -->
+  <section aria-labelledby="clock">
+    <div class="head"><p class="eyebrow">Mark The Calendar</p><h2 id="clock">SCLP Deadlines</h2></div>
+    <div class="scroll">
+      <table>
+        <tr><th style="width:30%">What</th><th>Deadline</th><th>Source</th></tr>
+        <tr><td>Notice before any committee meeting</td><td class="what">24 hours, in writing (email counts)</td><td class="cite">SCLP 8.1(i), 5.4(g)</td></tr>
+        <tr><td>Notice of an expulsion hearing</td><td class="what">At least 14 days, with a description of the charges</td><td class="cite">SCLP 1.2(e)</td></tr>
+        <tr><td>Notice before a vote to remove the Chair or a Vice-Chair</td><td class="what">At least 10 days, in writing</td><td class="cite">SCLP 8.2(a)</td></tr>
+        <tr><td>Vacancy for disability or abandoning office</td><td class="what">Takes effect 30 days after written notice, unless you resign, resume your duties, or give an acceptable reason</td><td class="cite">SCLP 8.3(d)</td></tr>
+        <tr><td>State Committee meeting after a county appeal</td><td class="what">Within two weeks of filing</td><td class="cite">SCLP 11</td></tr>
+        <tr><td>Resolution on the convention agenda</td><td class="what">To the Secretary at least two weeks before the convention</td><td class="cite">SCLP 7.2(k)</td></tr>
+        <tr><td>National delegate nominations from counties</td><td class="what">At least 30 days before the state convention</td><td class="cite">SCLP 7.3(d)</td></tr>
+        <tr><td>Telling the State Committee you can’t attend nationals</td><td class="what">At least 30 days before the national convention</td><td class="cite">SCLP 7.3(l)</td></tr>
+        <tr><td>Proxy to the State Secretary</td><td class="what">Before the meeting is called to order</td><td class="cite">SCLP 9(d)</td></tr>
+        <tr><td>Holding office</td><td class="what">Six months of membership for county and state office; one year for State Chair or a Vice-Chair</td><td class="cite">SCLP 1.2(c)</td></tr>
+      </table>
+    </div>
+  </section>
+
+  <footer class="head" style="gap:0.5rem">
+    <p class="eyebrow">Sources</p>
+    <p class="fine"><i>The Rules of the South Carolina Libertarian Party</i>, 2026, adopted November 4, 2017 and last amended by the State Convention on April 10, 2026; the official PDF linked as “Party Rules (Bylaws)” on sclp.org. <i>Robert’s Rules of Order Newly Revised</i>, 12th edition, governs SCLP meetings where these Rules and state law are silent. A study aid, not a ruling: the chair rules, and the body decides appeals.</p>
+    <p class="fine" id="none" hidden>Nothing on this page matches that search.</p>
+  </footer>
+</div>
+
+<script>
+  (function () {
+    var box = document.getElementById('q');
+    var none = document.getElementById('none');
+    var items = Array.prototype.slice.call(document.querySelectorAll('.card, .layer, tr')).filter(function (el) { return !el.querySelector('th'); });
+    function run() {
+      var t = box.value.trim().toLowerCase(); var shown = 0;
+      items.forEach(function (el) { var hit = !t || el.textContent.toLowerCase().indexOf(t) !== -1; el.hidden = !hit; if (hit) shown++; });
+      none.hidden = !t || shown > 0;
+    }
+    box.addEventListener('input', run);
+  })();
+</script>
+
+</body>
+</html>
